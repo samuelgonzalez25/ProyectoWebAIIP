@@ -1,0 +1,76 @@
+/* src/pages/User/Details.css */
+
+/* Importar fuente estilo Minecraft */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+h2 {
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+    font-family: 'Press Start 2P', monospace;
+    color: #FFD700; /* dorado */
+}
+
+.card {
+    border: 2px solid #FFD700; /* borde dorado */
+    border-radius: 0; /* esquinas cuadradas estilo Minecraft */
+    padding: 1.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(255, 215, 0, 0.3); /* glow dorado */
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-family: 'Press Start 2P', monospace;
+    transition: box-shadow 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 0 15px #FFD700; /* glow dorado más intenso */
+}
+
+dl.row {
+    margin-bottom: 0;
+}
+
+dt {
+    font-weight: bold;
+    font-family: 'Press Start 2P', monospace;
+    color: #FFD700;
+}
+
+dd {
+    margin-bottom: 0.75rem;
+    font-family: 'Press Start 2P', monospace;
+    color: #ffffff;
+}
+
+.btn-warning, .btn-secondary {
+    padding: 10px 15px;
+    font-size: 0.85rem; /* ajustado para fuente Minecraft */
+    border-radius: 0; /* cuadrado */
+    font-weight: bold;
+    font-family: 'Press Start 2P', monospace;
+    border: 2px solid #FFD700;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+.btn-warning {
+    background-color: #FFD700;
+    color: #242424;
+}
+
+.btn-warning:hover {
+    background-color: #FFC700;
+}
+
+.btn-secondary {
+    background-color: #B8860B; /* marrón dorado */
+    color: #ffffff;
+}
+
+.btn-secondary:hover {
+    background-color: #FFCC33;
+}
+
+.d-flex.gap-2 {
+    margin-top: 1rem;
+    gap: 10px;
+}

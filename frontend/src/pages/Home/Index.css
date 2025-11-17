@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+h1 {
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: 'Press Start 2P', monospace;
+}
+
+.btn-primary {
+    transition: background-color 0.3s;
+    background-color: #FFD700; /* dorado */
+    color: #222222; /* texto oscuro */
+    border-radius: 0; /* estilo más cuadrado */
+    font-family: 'Press Start 2P', monospace;
+    border: 2px solid #FFC700;
+}
+
+.btn-primary:hover {
+    background-color: #FFC700; /* dorado más oscuro */
+}
+
+.btn-secondary {
+    transition: background-color 0.3s;
+    background-color: #B8860B; /* marrón dorado */
+    color: #ffffff;
+    border-radius: 0;
+    font-family: 'Press Start 2P', monospace;
+    border: 2px solid #FFD700;
+}
+
+.btn-secondary:hover {
+    background-color: #FFCC33; /* amarillo brillante */
+}
+

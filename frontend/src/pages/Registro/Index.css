@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.card {
+    border: 2px solid #FFD700; /* borde dorado */
+    border-radius: 0; /* esquinas cuadradas estilo Minecraft */
+    font-family: 'Press Start 2P', monospace;
+    background-color: #000000;
+    color: #525252;
+    transition: box-shadow 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 0 15px #FFD700; /* glow dorado al pasar el cursor */
+}
+
+.card-header {
+    border-radius: 0; /* totalmente cuadrado */
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: #FFD700; /* dorado */
+    color: #ffffff;
+    padding: 1rem;
+}
+
+.btn-primary, .btn-secondary {
+    border-radius: 0; /* estilo cuadrado */
+    font-weight: bold;
+    font-family: 'Press Start 2P', monospace;
+    border: 2px solid #FFD700; /* borde dorado */
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #FFD700; /* dorado */
+    color: #000000;
+}
+
+.btn-primary:hover {
+    background-color: #FFC700; /* dorado oscuro */
+}
+
+.btn-secondary {
+    background-color: #B8860B; /* marrón dorado */
+    color: #ffffff;
+}
+
+.btn-secondary:hover {
+    background-color: #FFCC33; /* amarillo brillante */
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Press Start 2P', monospace;
+    color: #FFD700; /* dorado */
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #FFC700; /* dorado oscuro */
+}

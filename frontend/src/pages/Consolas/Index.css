@@ -1,0 +1,43 @@
+/* ===== Fuente estilo Minecraft ===== */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body, h5.card-title, .card-text, .btn {
+    font-family: 'Press Start 2P', monospace;
+}
+
+/* ===== Títulos de tarjetas ===== */
+h5.card-title {
+    font-weight: bold;
+    color: #FFD700; /* dorado */
+}
+
+/* ===== Texto de tarjetas ===== */
+.card-text {
+    font-size: 0.95rem;
+    color: #ffffff; /* tono amarillo claro */
+}
+
+/* ===== Botones ===== */
+.btn {
+    padding: 8px 12px;
+    font-size: 0.95rem;
+    font-weight: bold;
+    border: 2px solid #FFD700;
+    border-radius: 0; /* blocky estilo Minecraft */
+    background-color: #FFD700;
+    color: #242424;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.btn:hover, .btn-success:hover {
+    background-color: #FFC700;
+    box-shadow: 0 0 8px #FFD700;
+}
+
+.d-flex.gap-2 {
+    margin-top: 10px;
+}
+
+.btn-success {
+    white-space: nowrap;
+}

@@ -1,0 +1,42 @@
+/* ===== Fuente estilo Minecraft ===== */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body, h2, .list-group-item, .btn-secondary, .btn-warning, .btn-danger, .btn-success {
+    font-family: 'Press Start 2P', monospace;
+}
+
+/* ===== Títulos ===== */
+h2 {
+    font-weight: bold;
+    color: #FFD700; /* dorado */
+}
+
+/* ===== Listas ===== */
+.list-group-item {
+    font-size: 1rem;
+    color: #313131; /* amarillo claro */
+}
+
+/* ===== Botones ===== */
+.btn-secondary, .btn-warning, .btn-danger, .btn-success { 
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 0; /* estilo blocky Minecraft */
+    border: 2px solid #FFD700;
+    background-color: #FFD700;
+    color: #242424;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.btn-secondary:hover, .btn-warning:hover, .btn-danger:hover, .btn-success:hover {
+    background-color: #FFC700;
+    box-shadow: 0 0 8px #FFD700;
+}
+
+/* ===== Espaciado ===== */
+.d-flex.gap-2 {
+    margin-top: 10px;
+    gap: 0.5rem;
+}
+

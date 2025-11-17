@@ -1,0 +1,48 @@
+/* ===== Fuente estilo Minecraft ===== */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body, h2, th, td, .btn {
+    font-family: 'Press Start 2P', monospace;
+}
+
+/* ===== Headers ===== */
+h2 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #FFD700; /* dorado */
+}
+
+/* ===== Margenes ===== */
+.mb-3 {
+    margin-bottom: 1rem;
+}
+
+/* ===== Tablas ===== */
+.table th, .table td {
+    vertical-align: middle;
+    border: 2px solid #FFD700; /* borde dorado */
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+/* ===== Botones ===== */
+.btn {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border: 2px solid #FFD700;
+    background-color: #FFD700;
+    color: #000000;
+    border-radius: 0; /* blocky estilo Minecraft */
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.btn:hover {
+    background-color: #FFC700;
+    box-shadow: 0 0 8px #FFD700;
+}
+
+/* ===== Flex gap ===== */
+.d-flex.gap-1 {
+    gap: 0.3rem;
+}

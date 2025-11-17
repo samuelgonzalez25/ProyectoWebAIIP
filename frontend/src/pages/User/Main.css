@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.card-header h2 {
+    font-weight: bold;
+    color: #FFD700; /* dorado */
+    font-family: 'Press Start 2P', monospace;
+}
+
+.card-body .lead {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+    font-family: 'Press Start 2P', monospace;
+}
+
+.btn {
+    border-radius: 0; /* estilo Minecraft/blocky */
+    font-weight: bold;
+    font-family: 'Press Start 2P', monospace;
+    border: 2px solid #FFD700;
+    background-color: #FFD700;
+    color: #242424;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.btn:hover {
+    background-color: #FFC700; /* dorado más claro */
+    box-shadow: 0 0 10px #FFD700;
+}
+
+.btn i {
+    vertical-align: middle;
+    color: #242424; /* íconos visibles sobre el dorado */
+}
+

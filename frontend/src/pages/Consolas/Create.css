@@ -1,0 +1,18 @@
+/* ===== Fuente estilo Minecraft ===== */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+h2, .form-label {
+    font-family: 'Press Start 2P', monospace;
+}
+
+/* ===== Títulos ===== */
+h2 {
+    font-weight: bold;
+    color: #FFD700; /* dorado */
+}
+
+/* ===== Labels de formulario ===== */
+.form-label {
+    font-weight: 500;
+    color: #ffffff; /* amarillo claro */
+}

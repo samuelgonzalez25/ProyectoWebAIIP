@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.card {
+    border: none;
+    border-radius: 0; /* estilo cuadrado Minecraft */
+    font-family: 'Press Start 2P', monospace;
+}
+
+.card-header {
+    border-radius: 0 0 0 0 !important; /* totalmente cuadrado */
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: #FFD700; /* dorado */
+    color: #2e2e2e;
+    padding: 1rem;
+}
+
+.btn-primary, .btn-secondary {
+    border-radius: 0; /* cuadrado */
+    font-weight: bold;
+    font-family: 'Press Start 2P', monospace;
+    border: 2px solid #FFC700; /* borde dorado */
+    transition: background-color 0.3s;
+}
+
+.btn-primary {
+    background-color: #FFD700; /* dorado */
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #FFC700; /* dorado oscuro */
+}
+
+.btn-secondary {
+    background-color: #B8860B; /* marrón dorado */
+    color: #ffffff;
+}
+
+.btn-secondary:hover {
+    background-color: #FFCC33; /* amarillo brillante */
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Press Start 2P', monospace;
+    color: #FFD700; /* dorado */
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #FFC700; /* dorado oscuro */
+}
+
